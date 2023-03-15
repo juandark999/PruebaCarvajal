@@ -1,0 +1,26 @@
+﻿@model List<ProductoModel>
+@{
+	ViewBag.Title = "Nuevo Pedido";
+}
+<h2>@ViewBag.Title</h2>
+@using (Html.BeginForm("SavePedidoNuevo", "Pedido", FormMethod.Post))
+{
+	<div class="row">
+		<div class="col-md-12">
+			<label for="PedPro">Producto:</label>
+			<select class="form-control" name="PedPro">
+				@foreach (var Elemento in Model)
+				{
+					<option value="@Elemento.Id" selected>@Elemento.ProDesc</option>
+				}		
+			</select>
+			<br>
+			<label for="PedCant">Cantidad:</label>
+			<input type="number" name="PedCant" class="form-control" value="" placeholder="">
+			<br>
+			<div style="text-align:right;">
+				<input value="Guardar" class="btn btn-primary" type="submit">
+			</div>					
+		</div>
+	</div>
+}

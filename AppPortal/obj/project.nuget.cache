@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "dosKL/23W4OUrLGMvrd7yfy66k4eoVYx222tPWfOjHf+K2WryiwSVScTHmxA9CAHLaiIU5TwKJ2ac7u+6D8iVg==",
+  "success": true,
+  "projectFilePath": "D:\\proyectos\\carvajal\\PruebaCarvajal\\AppPortal\\AppPortal.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\user\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,89 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = AppPortal
+build_property.RootNamespace = AppPortal
+build_property.ProjectDir = D:\proyectos\carvajal\PruebaCarvajal\AppPortal\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = D:\proyectos\carvajal\PruebaCarvajal\AppPortal
+build_property._RazorSourceGeneratorDebug = 
+
+[D:/proyectos/carvajal/PruebaCarvajal/AppPortal/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/proyectos/carvajal/PruebaCarvajal/AppPortal/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/proyectos/carvajal/PruebaCarvajal/AppPortal/Views/Login/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cTG9naW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/proyectos/carvajal/PruebaCarvajal/AppPortal/Views/Login/Registrarse.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cUmVnaXN0cmFyc2UuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/proyectos/carvajal/PruebaCarvajal/AppPortal/Views/Pedido/ConsultaPe.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVkaWRvXENvbnN1bHRhUGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/proyectos/carvajal/PruebaCarvajal/AppPortal/Views/Pedido/EditarPedido.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVkaWRvXEVkaXRhclBlZGlkby5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/proyectos/carvajal/PruebaCarvajal/AppPortal/Views/Pedido/PedidoNuevo.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVkaWRvXFBlZGlkb051ZXZvLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/proyectos/carvajal/PruebaCarvajal/AppPortal/Views/Producto/ConsultaPro.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdG9cQ29uc3VsdGFQcm8uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/proyectos/carvajal/PruebaCarvajal/AppPortal/Views/Producto/EditarProducto.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdG9cRWRpdGFyUHJvZHVjdG8uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/proyectos/carvajal/PruebaCarvajal/AppPortal/Views/Producto/ProductoNuevo.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdG9cUHJvZHVjdG9OdWV2by5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/proyectos/carvajal/PruebaCarvajal/AppPortal/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/proyectos/carvajal/PruebaCarvajal/AppPortal/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/proyectos/carvajal/PruebaCarvajal/AppPortal/Views/Usuario/Consulta.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb1xDb25zdWx0YS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/proyectos/carvajal/PruebaCarvajal/AppPortal/Views/Usuario/Editar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb1xFZGl0YXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/proyectos/carvajal/PruebaCarvajal/AppPortal/Views/Usuario/UsuarioNuevo.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb1xVc3VhcmlvTnVldm8uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/proyectos/carvajal/PruebaCarvajal/AppPortal/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/proyectos/carvajal/PruebaCarvajal/AppPortal/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/proyectos/carvajal/PruebaCarvajal/AppPortal/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-91xuwkwim7

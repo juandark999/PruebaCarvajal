@@ -1,0 +1,36 @@
+﻿@model List<PedidoModel>
+@{
+	ViewBag.Title = "Pedidos";
+}
+<h2>@ViewBag.Title</h2>
+<div style="text-align:right;padding:5px;">
+	<a href="@Url.Action("GetAllPro","Producto")" class="btn btn-primary">Consultar Productos</a>
+	<a href="@Url.Action("GetAll","Usuario")" class="btn btn-primary">Consultar Usuarios</a>
+	<a href="@Url.Action("PedidoNuevo","Pedido")" class="btn btn-primary">Nuevo Pedido</a>
+</div>
+<div class="row">
+	<div class="col-md-12">
+		<table class="table">
+			<tr>
+				<th>Codigo del Pedido</th>
+				<th>Cantidad de Productos</th>
+				<th>IVA</th>
+				<th>Valor Pedido</th>
+				<th></th>
+			</tr>
+			@foreach (var Elemento in Model)
+			{
+				<tr>
+					<td>@Elemento.Id</td>
+					<td>@Elemento.PedCant</td>
+					<td>@Elemento.PedIVA</td>
+					<td>@Elemento.PedTotal</td>
+					<td>
+						<a class="btn btn-primary" href="@Url.Action("PedidoModifica","Pedido",new {Id = Elemento.Id})">Editar</a>
+						<a class="btn btn-danger" href="@Url.Action("PedidoElimina","Pedido",new {Id = Elemento.Id})">Eliminar</a>
+					</td>
+				</tr>
+			}
+		</table>
+	</div>
+</div>

@@ -1,0 +1,20 @@
+﻿@model ProductoNuevoModel 
+@{
+	ViewBag.Title = "Nuevo Producto";
+}
+<h2>@ViewBag.Title</h2>
+@using (Html.BeginForm("SaveProductoNuevo", "Producto", FormMethod.Post))
+{
+	<div class="row">
+		<div class="col-md-12">
+			@Html.LabelFor(d => d.ProDesc)
+			@Html.TextBoxFor(d => d.ProDesc, "", new { @class = "form-control"})
+			@Html.LabelFor(d => d.ProValor)
+			@Html.TextBoxFor(d => d.ProValor, "", new { @class = "form-control"})
+			<br>
+			<div style="text-align:right;">
+				<input value="Guardar" class="btn btn-primary" type="submit">
+			</div>					
+		</div>
+	</div>
+}

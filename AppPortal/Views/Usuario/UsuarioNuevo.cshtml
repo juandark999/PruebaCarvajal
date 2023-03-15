@@ -1,0 +1,20 @@
+﻿@model UsuarioNuevoModel 
+@{
+	ViewBag.Title = "Nuevo Usuario";
+}
+<h2>@ViewBag.Title</h2>
+@using (Html.BeginForm("SaveUsuarioNuevo", "Usuario", FormMethod.Post))
+{
+	<div class="row">
+		<div class="col-md-12">
+			@Html.LabelFor(d => d.UsuNombre)
+			@Html.TextBoxFor(d => d.UsuNombre, "", new { @class = "form-control"})
+			@Html.LabelFor(d => d.UsuPass)
+			@Html.PasswordFor(d => d.UsuPass, new { @class = "form-control"})
+			<br>
+			<div style="text-align:right;">
+				<input value="Guardar" class="btn btn-primary" type="submit">
+			</div>					
+		</div>
+	</div>
+}
